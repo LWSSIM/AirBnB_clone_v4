@@ -160,5 +160,14 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
 Second part of Airbnb: Joann Vuong
+
+
+### After Forking
+Adding Web dynamic part:
+- GET / POST requests with JQUERY
+- DOM manipulation
+
+[Wassim EL MNAJJA](github.com/LWSSIM) - [Twitter](https://twitter.com/LWSSIM)  
+
 ## License
 Public Domain. No copy write protection. 
