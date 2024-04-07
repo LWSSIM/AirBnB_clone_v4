@@ -142,5 +142,26 @@ To access the API documentation, navigate to the '/apidocs' endpoint in your bro
 
 Refer to the Flasgger documentation for customization options and advanced features to enhance your API documentation further.
 
+## Example
+### Start A Dynamic Page
+
+Make sure to have the correct env vars!
+```bash
+~/AirBnB_v4$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_dynamic.0-hbnb
+* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+...
+```
+
+### Start API
+In a *.js file, `request` an endpoint and implement logic based on `response`.
+
+- To start the API in the port 5001:
+```bash
+~/AirBnB_v4$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db HBNB_API_PORT=5001 python3 -m api.v1.app
+...
+```
+> [!Note]
+> See AJAX information above for handeling the *.js scripts to perfom dynamic DOM manipulations.
+
 ## Conclusion
 The integration of dynamic content features into the Flask web application significantly enhances its functionality and user experience. By leveraging the capabilities to request APIs, modify HTML elements, manipulate the DOM, handle asynchronous requests and events, and integrate Flasgger for API documentation, you can create interactive and responsive web applications tailored to your specific requirements. Refer to the provided examples, documentation, and best practices to effectively implement dynamic content within your Flask web app.
