@@ -37,7 +37,7 @@ $(document).ready(function () {
     data: '{}',
     success: (data) => {
       for (const place of data) {
-      const template = `
+        const template = `
       <article>
         <div class="title_box">
           <h2>${place.name}</h2>
@@ -52,7 +52,7 @@ $(document).ready(function () {
           ${place.description}
         </div>
       </article>`;
-      $('section.places').append(template);
+        $('section.places').append(template);
       }
     }
   });
